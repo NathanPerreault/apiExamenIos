@@ -1,0 +1,20 @@
+{
+  "name": "iosexamenfinal",
+  "version": "1.0.0",
+  "description": "examen final IOS 2",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Nathan Perreault",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.1",
+    "sqlite3": "^5.1.6"
+  }
+}
