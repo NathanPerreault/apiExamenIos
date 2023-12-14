@@ -10,7 +10,7 @@ import {
  const router = Router();
 
  router.get('/',getAllAccounts);
- router.get('/numero',getAccount);
- router.delete('/numero',closeAccount);
+ router.get('/:numero',getAccount);
+ router.delete('/:numero',closeAccount);
 
  export default router;
